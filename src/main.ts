@@ -4,9 +4,7 @@ import { animate, createBall } from "./helpers";
 import { featureKey, siteCode, visitorCode } from "./constants";
 
 // -- Configure the SDK
-const configuration = {
-  updateInterval: 1,
-};
+
 const client = new KameleoonClient({ siteCode });
 
 async function init(): Promise<void> {
